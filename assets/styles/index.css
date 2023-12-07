@@ -1,0 +1,110 @@
+@import url(./reset.css);
+
+body {
+    background-color: rgb(43, 47, 47);
+    color: aliceblue;
+    height: 100vh;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hero-text {
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    font-size: 3rem;
+}
+
+.cookies,
+.cookies-settings {
+    width: 300px;
+    height: 270px;
+    background-color: rgb(240, 255, 255);
+    color: rgb(43, 47, 47);
+    border-radius: 7px;
+    z-index: 1000;
+  position: absolute;
+  top: 50%;
+  right: 42%;
+  transform: translateX(50%);
+  transform: translateY(-50%);
+}
+
+.cookies-settings-content {
+    width: 80%;
+    margin: 0 auto;
+}
+
+table {
+    width: 100%;
+}
+
+.cookies-button-accept,
+.cookies-button-save {
+    padding: 10px 20px;
+    border-radius: 7px;
+    margin: 20px 20px 0 0;
+}
+
+
+.cookies-button-accept,
+.cookies-button-save {
+    background-color: rgb(43, 47, 47);
+    border: 1px solid rgb(43, 47, 47);
+    color: aliceblue;
+}
+
+.cookies-button-accept,
+.cookies-button-save {
+    padding: 10px 20px;
+    border-radius: 7px;
+    margin: 20px 0;
+    z-index: 1001;
+    cursor: pointer;
+}
+
+.cookies-button-settings,
+.cookies-button-settings:hover {
+    border: 1px solid rgb(43, 47, 47);
+    padding: 10px 20px;
+    border-radius: 7px;
+    color: rgb(43, 47, 47);
+    cursor: pointer;
+}
+
+.cookies-button-settings,
+.cookies-button-settings:hover {
+    border: 1px solid rgb(43, 47, 47);
+    padding: 10px 20px;
+    border-radius: 7px;
+    color: rgb(43, 47, 47);
+    cursor: pointer;
+
+    z-index: 1001;
+}
+
+.blure {
+    filter: blur(5px);
+}
+
+.cookies-background-cookies,
+.cookies-background-settings { 
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.hidden {
+    display: none;
+}
