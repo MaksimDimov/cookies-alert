@@ -8,7 +8,7 @@ Basik alert about website use cookies to improve the experiance.
 
 2) Set, what cookies you want to share (4 choises: brouser, operation system, screen width and height)
 
-3) ## Languages used
+## Languages used
 <p align="left">
   <img src="https://img.shields.io/badge/javascript-informational?style=for-the-badge&logoColor=black&color=EBEB23"/>&nbsp;
   <img src="https://img.shields.io/badge/CSS-informational?style=for-the-badge&logoColor=black&color=4121DE"/>&nbsp;
